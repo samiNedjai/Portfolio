@@ -1,0 +1,85 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/ArgentBank.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/ArgentBank.git",
+      "site" : "https://saminedjai.github.io/ArgentBank/"
+    },
+    {
+      "id": "2",
+      "src": "./img/Ohmyfood.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/ohmyfood.git",
+      "site" : "https://saminedjai.github.io/ohmyfood/"
+    },
+    {
+      "id": "3",
+      "src": "./img/Kasa.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/kasa.git",
+      "site" : "https://saminedjai.github.io/kasa/"
+    },
+    {
+      "id": "4",
+      "src": "./img/Booki.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/Booki.git",
+      "site" : "https://saminedjai.github.io/Booki/"
+   
+    },
+    {
+      "id": "5",
+      "src": "./img/Nina.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/nina.git",
+      "site" : "https://saminedjai.github.io/nina/"
+    },
+    {
+      "id": "6",
+      "src": "./img/724-Event.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github",
+      "lien" : "https://github.com/samiNedjai/724-Event.git",
+      "site" : "https://saminedjai.github.io/724-Event/"
+    }
+  ]
+}
