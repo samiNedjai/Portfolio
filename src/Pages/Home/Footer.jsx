@@ -69,7 +69,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/sami.nadj"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/nadjsami/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -113,7 +113,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/NedjaiSami"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -134,7 +134,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/sami-nedjai/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
