@@ -6,13 +6,13 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm SAMI</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">FRONT-END</span>{" "}
             <br />
             Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            Intégrateur web.
+            <br /> FRONT-END
           </p>
         </div>
         <a href={CVPdf} className="btn btn-primary" target="_blank" rel="noopener noreferrer">

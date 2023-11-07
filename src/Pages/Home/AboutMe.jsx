@@ -12,7 +12,7 @@ export default function AboutMe() {
           Ancien officier de carrière dans l’armée algérienne, 
           je souhaite prendre un nouveau tournant dans ma carrière professionnelle en m’orientant en informatique. 
           Persévérant et très engagé, c’est cet esprit qui m’a toujours animé jusqu’à l‘aboutissement de mes projets.
-           J’ai par ailleurs commencé en autodidacte l’apprentissage de langages informatiques pour acquérir les bases et suivi des formations à l’école Simplon.
+           J’ai par ailleurs commencé en autodidacte l’apprentissage de langages informatiques pour acquérir les bases et suivi des formations à OpenClassRooms.
           </p>
           <p className="hero--section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem

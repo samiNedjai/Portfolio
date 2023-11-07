@@ -533,7 +533,7 @@ input[type="checkbox"] {
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
-    font-size: 68px;
+    font-size: 60px;
     line-height: 70px;
   }
   .skills--section--title {
@@ -717,6 +717,14 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+  .hero--section-description {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .skills-section--heading {
+    font-size: 45px;
+  }
 }
+
 
 /* Responsive Screens Ends*/
