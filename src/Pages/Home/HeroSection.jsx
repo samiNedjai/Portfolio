@@ -1,4 +1,4 @@
-import CVPdf from '../../assete/CV.pdf';
+import CVPdf from '../../assets/CV.pdf';
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
