@@ -20,7 +20,7 @@ function Footer() {
                 to="heroSection"
                 className="text-md"
               >
-                Home
+                Accueil
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ function Footer() {
                 to="AboutMe"
                 className="text-md"
               >
-                About Me
+                À propo
               </Link>
             </li>
             <li>
@@ -160,7 +160,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by SAMI</p>
+        <p className="footer--content">Réalisé avec 💖 par SAMI @ 2023</p>
         <div className="footer--social--icon">
         </div>
       </div>

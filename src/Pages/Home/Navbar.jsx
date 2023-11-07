@@ -58,7 +58,7 @@ function Navbar() {
               to="heroSection"
               className="navbar--content"
             >
-              Home
+              Accueil
             </Link>
           </li>
           <li>
@@ -86,7 +86,7 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-              About Me
+              à propos
             </Link>
           </li>
         </ul>
@@ -101,7 +101,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contact Me
+        Contactez-Moi
       </Link>
     </nav>
   );
