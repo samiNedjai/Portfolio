@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useSpring, animated } from 'react-spring';
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
+  const [expandedCardIndex, setExpandedCardIndex] = useState(null);
+
+  const [showCards, setShowCards] = useState(false);
+  const cardSpring = useSpring({
+    opacity: showCards ? 1 : 0,
+    transform: showCards ? 'translateY(0)' : 'translateY(50px)',
+  });
   // Divisez les données en groupes de 3
   const portfolioGroups = [];
   for (let i = 0; i < data.portfolio.length; i += 3) {
     portfolioGroups.push(data.portfolio.slice(i, i + 3));
   }
+  useEffect(() => {
+    // Utilisez une fonction récursive pour définir le délai d'affichage de chaque carte
+    const showNextCard = (index) => {
+      if (index < data.portfolio.length) {
+        // Définir la carte actuelle pour l'affichage
+        setShowCards(index);
+        // Appeler la fonction récursive après un délai
+        setTimeout(() => showNextCard(index + 1), 500); // ajustez le délai selon vos préférences
+      }
+    };
+  
+    // Commencez à afficher les cartes après un court délai initial
+    setTimeout(() => showNextCard(0), 500);
+  
+  }, []);
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -36,38 +59,55 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
-            </div>
-            <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+
+              <animated.div 
+              key={index} 
+              className="portfolio--section--card"
+              style={{
+                ...cardSpring,
+                opacity: showCards ? 1 : 0,
+                transform: showCards ? "translateY(0)" : "translateY(50px)",
+                transitionDelay: showCards ? `${index * 300}ms` : "0ms",
+                visibility: showCards ? "visible" : "hidden",
+              }}
+              >
+              <div className="portfolio--section--img">
+                <img src={item.src} alt="Placeholder" />
               </div>
-              <p className="text-sm portfolio--link" >
-                <a href={item.lien}>
-                {item.link}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
-                >
-                  <path
-                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                    stroke="currentColor"
-                    strokeWidth="2.66667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                </a>
-                <a href={item.site}> site </a>
-              </p>
-            </div>
-          </div>
+              <div className="portfolio--section--card--content">
+                <div>
+                  <h3 className="portfolio--section--title">{item.title}</h3>
+                  <p className="text-md">
+                  {expandedCardIndex === index ? item.description : item.description.substring(0, 50) + '...'}
+        </p>
+        <button onClick={() => setExpandedCardIndex(expandedCardIndex === index ? null : index)}>
+          {expandedCardIndex === index ? 'Réduire' : 'En savoir plus'}
+        </button>
+                </div>
+                <p className="text-sm portfolio--link">
+                  <a href={item.lien}>
+                    {item.link}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                        stroke="currentColor"
+                        strokeWidth="2.66667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href={item.site}> site </a>
+                </p>
+              </div>
+</animated.div>
+
         ))}
       </div>
     </section>

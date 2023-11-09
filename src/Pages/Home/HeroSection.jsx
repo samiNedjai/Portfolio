@@ -8,7 +8,7 @@ export default function HeroSection() {
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">FRONT-END</span>{" "}
             <br />
-            Developer
+            Développeur
           </h1>
           <p className="hero--section-description">
             Intégrateur web.

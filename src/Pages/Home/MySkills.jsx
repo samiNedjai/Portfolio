@@ -62,7 +62,7 @@ export default function MySkills() {
         {skills.map((skill, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
-            <img src={`${process.env.PUBLIC_URL}/devicon/${skill.class}.svg`} alt={skill.name} style={{ width: '50px', height: '50px' }} />
+            <img src={`${process.env.PUBLIC_URL}/devicon/${skill.class}.svg`} alt={skill.name} style={{ width: '60px', height: '60px' }} />
 
             </div>
             <div className="skills--section--card--content">

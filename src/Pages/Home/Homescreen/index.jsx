@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AboutMe from "../AboutMe";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
@@ -6,13 +7,14 @@ import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 
 export default function Home() {
+  const [activeSection, setActiveSection] = useState('HeroSection');
   return (
     <>
-      <HeroSection />
-      <MySkills />
-      <AboutMe />
-      <MyPortfolio />
-      <ContactMe />
+      <HeroSection setActiveSection={setActiveSection} />
+      <MySkills setActiveSection={setActiveSection} />
+      <AboutMe setActiveSection={setActiveSection} />
+      <MyPortfolio setActiveSection={setActiveSection} activeSection={activeSection} />
+      <ContactMe setActiveSection={setActiveSection} />
       <Footer />
     </>
   );
