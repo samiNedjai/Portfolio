@@ -14,7 +14,7 @@ export default function ContactMe() {
             <span className="text-md">Prénom</span>
             <input
               type="text"
-              className="contact--input text-md"
+              className="contact--input "
               name="first-name"
               id="first-name"
               required
@@ -24,7 +24,7 @@ export default function ContactMe() {
             <span className="text-md">Nom</span>
             <input
               type="text"
-              className="contact--input text-md"
+              className="contact--input "
               name="last-name"
               id="last-name"
               required
@@ -34,7 +34,7 @@ export default function ContactMe() {
             <span className="text-md">E-mai</span>
             <input
               type="email"
-              className="contact--input text-md"
+              className="contact--input "
               name="email"
               id="email"
               required
@@ -44,7 +44,7 @@ export default function ContactMe() {
             <span className="text-md">numéro de téléphoner</span>
             <input
               type="number"
-              className="contact--input text-md"
+              className="contact--input "
               name="phone-number"
               id="phone-number"
               required
@@ -53,7 +53,7 @@ export default function ContactMe() {
         </div>
         <label htmlFor="choode-topic" className="contact--label">
           <span className="text-md">Choisir un sujet</span>
-          <select id="choose-topic" className="contact--input text-md">
+          <select id="choose-topic" className="contact--input ">
             <option>Sélectionnez-en un...</option>
             <option>Article 1</option>
             <option>Article 2</option>
@@ -63,7 +63,7 @@ export default function ContactMe() {
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
-            className="contact--input text-md"
+            className="contact--input "
             id="message"
             rows="8"
             placeholder="Taper votre message..."

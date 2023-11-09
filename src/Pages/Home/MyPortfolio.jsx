@@ -34,7 +34,6 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Projets récents</p>
           <h2 className="section--heading">Mon portfolio</h2>
         </div>
         <div>
@@ -77,20 +76,20 @@ export default function MyPortfolio() {
               <div className="portfolio--section--card--content">
                 <div>
                   <h3 className="portfolio--section--title">{item.title}</h3>
-                  <p className="text-md">
+                  <p className="portfolio--description">
                   {expandedCardIndex === index ? item.description : item.description.substring(0, 50) + '...'}
         </p>
-        <button onClick={() => setExpandedCardIndex(expandedCardIndex === index ? null : index)}>
-          {expandedCardIndex === index ? 'Réduire' : 'En savoir plus'}
+        <button className="btn-text" onClick={() => setExpandedCardIndex(expandedCardIndex === index ? null : index)}>
+          {expandedCardIndex === index ? 'Réduire' : 'Plus...'}
         </button>
                 </div>
                 <p className="text-sm portfolio--link">
                   <a href={item.lien}>
-                    {item.link}
+                    Github
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
+                      width="12"
+                      height="12"
                       viewBox="0 0 20 19"
                       fill="none"
                     >
@@ -103,7 +102,23 @@ export default function MyPortfolio() {
                       />
                     </svg>
                   </a>
-                  <a href={item.site}> site </a>
+                  <a href={item.site}> site 
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                        stroke="currentColor"
+                        strokeWidth="2.66667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </a>
                 </p>
               </div>
 </animated.div>

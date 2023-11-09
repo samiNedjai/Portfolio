@@ -68,7 +68,7 @@ function Footer() {
         <div className="footer--social--icon">
           <ul>
             <li>
-              <a
+              <a 
                 href="https://www.facebook.com/sami.nadj"
                 className="navbar--content"
                 target="_blank"

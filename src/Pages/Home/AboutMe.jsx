@@ -4,7 +4,7 @@ export default function AboutMe() {
       <div className="about--section--img">
         <img src="./img/photo-sami2.png" alt="About Me" />
       </div>
-      <div className="hero--section--content--box about--section--box">
+      <div className="hero--section--content--box  about--section--box">
         <div className="hero--section--content">
           <p className="section--title">À propos</p>
           <h1 className="skills-section--heading">À propos de moi</h1>
