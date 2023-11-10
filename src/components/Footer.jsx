@@ -12,7 +12,7 @@ function Footer() {
           <ul>
             <li>
               <Link
-                activeClass="navbar--active-content"
+               
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -25,7 +25,6 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -38,7 +37,6 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -51,7 +49,6 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}

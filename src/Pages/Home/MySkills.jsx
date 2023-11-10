@@ -35,7 +35,7 @@ export default function MySkills() {
             data: skillLevels,
             backgroundColor: barColors,
             borderColor: barColors.map((color) => color.replace("0.2", "1")),
-            borderWidth: 2,
+            borderWidth: 1,
           },
         ],
       },

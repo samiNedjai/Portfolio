@@ -90,6 +90,7 @@ a {
   color: #e62872;
 }
 /* Global CSS Ends */
+
 /* Main Headings */
 
 /* Heading 1 */
@@ -580,6 +581,37 @@ input[type="checkbox"] {
   width: 100px;
   height: 100px;
 }
+
+/*  Error 404 */
+.error-404-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #12002b;
+  color: #fff;
+}
+
+.error-404-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.error-404-text {
+  font-size: 1.2rem;
+}
+
+.error-404-link {
+  text-decoration: underline;
+  color: #fff;
+  margin-top: 50px;
+}
+
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {

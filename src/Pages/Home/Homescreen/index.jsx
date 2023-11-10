@@ -1,21 +1,21 @@
-import { useState } from "react";
 import AboutMe from "../AboutMe";
 import ContactMe from "../ContactMe";
-import Footer from "../Footer";
+import Footer from "../../../components/Footer";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
+import Navbar from "../../../components/Navbar";
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState('HeroSection');
   return (
     <>
-      <HeroSection setActiveSection={setActiveSection} />
-      <MySkills setActiveSection={setActiveSection} />
-      <AboutMe setActiveSection={setActiveSection} />
-      <MyPortfolio setActiveSection={setActiveSection} activeSection={activeSection} />
-      <ContactMe setActiveSection={setActiveSection} />
-      <Footer />
+      <Navbar/>
+      <HeroSection/>
+      <MySkills/>
+      <AboutMe/>
+      <MyPortfolio/>
+      <ContactMe/>
+      <Footer/>
     </>
   );
 }
