@@ -712,10 +712,16 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .portfolio--link {
-    gap: 200px;
+    gap: 150px;
     padding-bottom: 10.6px;
     font-weight: 500;
     
+  }
+  .btn-text {
+    padding-left: 186px;
+  }
+  .portfolio--section--card--content{
+    padding: 0px;
   }
   .section--heading-title {
     font-size: 35px;
