@@ -7,11 +7,11 @@ export default function MySkills() {
   const chartRef = useRef(null);
   // Tableau de couleurs pour chaque barre
   const barColors = [
-    "rgba(0, 255, 255, 1)",
-    "rgba(100, 149, 237, 1)",
-    "rgba( 0, 139, 139, 1)",
-    "rgba(30, 144, 255, 1)",
-    "rgba(143, 188, 143, 1)",
+    "rgba(237,238,201, 1)",
+    "rgba(221, 231, 199, 1)",
+    "rgba( 191, 216, 189, 1)",
+    "rgba(152, 201, 163, 1)",
+    "rgba(119, 191, 163, 1)",
     "rgba(173, 216, 230, 1)",
   ];
 
@@ -55,8 +55,8 @@ export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
-        <p className="section--title">Mes compétences</p>
-        <h2 className="skills--section--heading">Mon expertise</h2>
+        {/* <p className="section--title"></p> */}
+        <h2 className="skills--section--heading">Mes compétences</h2>
       </div>
       <div className="skills--section--container">
         {skills.map((skill, index) => (
@@ -66,8 +66,8 @@ export default function MySkills() {
 
             </div>
             <div className="skills--section--card--content">
-              <h3 className="skills--section--title">{skill.name}</h3>
-              <p className="skills--section--description">{skill.level}%</p>
+              {/* <h3 className="skills--section--title">{skill.name}</h3> */}
+              {/* <p className="skills--section--description">{skill.level}%</p> */}
             </div>
           </div>
         ))}

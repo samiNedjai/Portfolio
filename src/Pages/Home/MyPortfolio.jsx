@@ -34,7 +34,7 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="section--heading">Mon portfolio</h2>
+          <h2 className="section--heading-title">Mon portfolio</h2>
         </div>
         <div>
           <button className="btn btn-github"  onClick={() => (window.location.href = "https://github.com/samiNedjai?tab=repositories")} >
@@ -67,21 +67,27 @@ export default function MyPortfolio() {
                 opacity: showCards ? 1 : 0,
                 transform: showCards ? "translateY(0)" : "translateY(50px)",
                 transitionDelay: showCards ? `${index * 300}ms` : "0ms",
-                visibility: showCards ? "visible" : "hidden",
+                 visibility: showCards ? "visible" : "hidden",
               }}
               >
               <div className="portfolio--section--img">
                 <img src={item.src} alt="Placeholder" />
               </div>
               <div className="portfolio--section--card--content">
+                  <div >
+                  <p className="portfolio--languages" >{item.languages.join(', ')}</p>
+                  </div>
                 <div>
                   <h3 className="portfolio--section--title">{item.title}</h3>
-                  <p className="portfolio--description">
-                  {expandedCardIndex === index ? item.description : item.description.substring(0, 50) + '...'}
-        </p>
-        <button className="btn-text" onClick={() => setExpandedCardIndex(expandedCardIndex === index ? null : index)}>
-          {expandedCardIndex === index ? 'Réduire' : 'Plus...'}
-        </button>
+                  <div className="portfolio--description--container">
+                      <p className="portfolio--description">
+                      {expandedCardIndex === index ? item.description : item.description.substring(0, 50) + '...'}
+                      </p>
+                      <button className="btn-text" onClick={() => setExpandedCardIndex(expandedCardIndex === index ? null : index)}>
+                        {expandedCardIndex === index ? 'Réduire' : 'Plus...'}
+                      </button>
+                  </div>
+                  
                 </div>
                 <p className="text-sm portfolio--link">
                   <a href={item.lien}>

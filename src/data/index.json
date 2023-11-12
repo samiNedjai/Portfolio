@@ -39,28 +39,33 @@
       "id": "1",
       "src": "./img/ArgentBank.png",
       "title": "ArgentBank",
-      "description": "site qui permettre a fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
+      "description": "site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
       "link": " Github",
       "lien" : "https://github.com/samiNedjai/ArgentBank.git",
-      "site" : "https://saminedjai.github.io/ArgentBank/"
+      "site" : "https://saminedjai.github.io/ArgentBank/",
+      "languages": ["React", "Redux"]
+      
     },
     {
       "id": "2",
       "src": "./img/Ohmyfood.png",
       "title": "Ohmyfood",
-      "description": "Révolution de la Restauration création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
+      "description": "Création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
       "link": "View In Github",
       "lien" : "https://github.com/samiNedjai/ohmyfood.git",
-      "site" : "https://saminedjai.github.io/ohmyfood/"
+      "site" : "https://saminedjai.github.io/ohmyfood/",
+      "languages": ["HTML", "CSS"]
     },
     {
       "id": "3",
       "src": "./img/Kasa.png",
       "title": "Kasa",
-      "description": " Un site web de Kasa est de fournir aux utilisateurs une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
+      "description": " Le site web de Kasa est une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
       "link": "View In Github",
       "lien" : "https://github.com/samiNedjai/kasa.git",
-      "site" : "https://saminedjai.github.io/kasa/"
+      "site" : "https://saminedjai.github.io/kasa/",
+      "languages": ["SASS", "React"]
+     
     },
     {
       "id": "4",
@@ -69,26 +74,29 @@
       "description": "Un site permettant aux usagers de trouver des hébergements et des activités dans leur ville de choix.Transformer les maquettes desktop,tablette et mobile en code HTML et CSS",
       "link": "View In Github",
       "lien" : "https://github.com/samiNedjai/Booki.git",
-      "site" : "https://saminedjai.github.io/Booki/"
+      "site" : "https://saminedjai.github.io/Booki/",
+      "languages": ["HTML", "CSS"]
    
     },
     {
       "id": "5",
       "src": "./img/Nina.png",
       "title": "Nina Carducci",
-      "description": "Améliorer le référencement du site, augmentant ainsi sa visibilité auprès des clients potentiels.fourniture du code optimisé et d'un rapport de performance pour démontrer les résultats.",
+      "description": "Améliorer le référencement du site, en augmentant sa visibilité auprès des clients potentiels.La fourniture du code est optimisé avec un rapport de performance pour démontrer les résultats.",
       "link": "View In Github",
       "lien" : "https://github.com/samiNedjai/nina.git",
-      "site" : "https://saminedjai.github.io/nina/"
+      "site" : "https://saminedjai.github.io/nina/",
+      "languages": ["Optimisez le SEO"]
     },
     {
       "id": "6",
       "src": "./img/724-Event.png",
       "title": "724-Event",
-      "description": "site web qui servir de vitrine en ligne pour l'agence événementielle. Il doit présenter de manière attrayante les services et les événements proposés par l'agence.déboguer le site existant ",
+      "description": "Ce site web  sert de vitrine en ligne pour l'agence événementielle. Il doit présenter de manière attrayante les services et les événements proposés par l'agence.",
       "link": "View In Github",
       "lien" : "https://github.com/samiNedjai/724-Event.git",
-      "site" : "https://saminedjai.github.io/724-Event/"
+      "site" : "https://saminedjai.github.io/724-Event/",
+      "languages": ["React"]
     }
   ]
 }

@@ -86,6 +86,9 @@ a {
   background-color: var(--white);
 }
 .btn-text {
+  cursor: s-resize;
+  background-color: white;
+  padding-left: 300px;
   border: none;
   color: #e62872;
 }
@@ -156,7 +159,7 @@ h2 {
   display: flex;
   align-items: flex-start;
 }
-/* Portfolio, Testimonial & Contact Me */
+/* Portfolio & Contact Me */
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
@@ -215,7 +218,7 @@ h2 {
 .hero--section {
   display: flex;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 175px 85.333px 50px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -251,6 +254,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  padding-bottom: 30px;
 }
 .hero--section--img {
   display: flex;
@@ -328,7 +332,7 @@ h2 {
 }
 .skills--section--description {
   color: var(--black);
-  padding-left: 10px;
+  padding-left: 25px;
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
@@ -353,14 +357,14 @@ h2 {
   display: flex;
   padding: 30px 85px;
   align-items: center;
-  gap: 114.6px;
+  gap: 114px;
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
   margin: 0;
-  width: 100%;
+  width: 500px;
   height: 100%;
-  clip-path: circle();
+  border-radius: 50%;
 }
 /* About Us Ends */
 
@@ -371,6 +375,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  
 }
 
 .portfolio--container-box {
@@ -383,7 +388,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21.3px;
+  /* gap: 21.3px; */
 }
 .portfolio--row {
   display: flex;
@@ -416,18 +421,18 @@ h2 {
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  cursor:auto;
 }
 .portfolio--section--card--content {
   display: flex;
   padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
   align-self: stretch;
 }
@@ -437,21 +442,42 @@ h2 {
 .portfolio--link {
   text-decoration: none;
   display: flex;
-  gap: 100px;
+  gap: 280px;
   padding-bottom: 10.6px;
   font-weight: 600;
   
 }
-.portfolio--section--card:hover path {
+/* .portfolio--section--card:hover path {
   stroke: #006b6a;
-}
+} */
+/* .portfolio--description--container{
+  display: flex;
+  justify-content:center ;
+} */
 .portfolio--description {
   color: var(--darkblue);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 25px;
   border-bottom: none;
+}
+.portfolio--languages {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+    padding: 5px;
+    font-size: 18px;
+    font-weight:600;
+    color:white;
+    background-color: #7CC3C9;
+    border: solid 1px #5D7173 ;
+    width: 150px;
+    border-radius: 15px;
+}
+.section--heading-title {
+  font-size: 54px;
+  line-height: 70px;
 }
 /* Portfolio Ends */
 
@@ -655,7 +681,7 @@ input[type="checkbox"] {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
   }
   .hero--section--title,
   .hero--section-description,
@@ -685,6 +711,15 @@ input[type="checkbox"] {
   .portfolio--container-box {
     gap: 30px;
   }
+  .portfolio--link {
+    gap: 200px;
+    padding-bottom: 10.6px;
+    font-weight: 500;
+    
+  }
+  .section--heading-title {
+    font-size: 35px;
+  }
   .skills--section,
   .contact--section,
   .footer--container {
@@ -693,6 +728,8 @@ input[type="checkbox"] {
     padding-bottom: 70px;
   }
   .about--section {
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
@@ -727,7 +764,7 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
-  .about--section--img  {
+  .about--section--img >img {
      width: 50%;  
     height: 50%; 
   }
@@ -810,11 +847,15 @@ input[type="checkbox"] {
   }
 
   .hero--section-description {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .btn {
+    font-size: 13px;
   }
   .skills-section--heading  {
-    font-size: 25px;
+    font-size: 20px;
   }
   .skills--section--card {
     padding: 52px;

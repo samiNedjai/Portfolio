@@ -6,12 +6,13 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Je suis SAMI</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">FRONT-END</span>{" "}
+            <span className="hero--section-title--color">Développeur</span>{" "}
             <br />
-            Développeur
+            FRONT-END
           </h1>
           <p className="hero--section-description">
-            Intégrateur web.
+          conçoit et crée l'interface visuelle et interactive des applications web, 
+          en utilisant des langages comme HTML, CSS et JavaScript pour offrir une expérience utilisateur intuitive et attrayante. 
           </p>
         </div>
         <a href={CVPdf} className="btn btn-primary" target="_blank" rel="noopener noreferrer">

@@ -41,7 +41,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">numéro de téléphoner</span>
+            <span className="text-md">Numéro de téléphoner</span>
             <input
               type="number"
               className="contact--input "
