@@ -29,6 +29,18 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="mySkills"
+                className="text-md"
+              >
+                Compétences
+              </Link>
+            </li>
+            <li>
+              <Link
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="MyPortfolio"
                 className="text-md"
               >
