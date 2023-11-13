@@ -66,8 +66,6 @@ export default function MySkills() {
 
             </div>
             <div className="skills--section--card--content">
-              {/* <h3 className="skills--section--title">{skill.name}</h3> */}
-              {/* <p className="skills--section--description">{skill.level}%</p> */}
             </div>
           </div>
         ))}

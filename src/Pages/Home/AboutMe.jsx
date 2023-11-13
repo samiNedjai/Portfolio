@@ -6,7 +6,6 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box  about--section--box">
         <div className="hero--section--content">
-          {/* <p className="section--title">À propos</p> */}
           <h1 className="skills-section--heading">À propos de moi</h1>
           <p className="hero--section-description">
           Ancien officier de carrière dans l’armée algérienne, 
@@ -14,11 +13,6 @@ export default function AboutMe() {
           Persévérant et très engagé, c’est cet esprit qui m’a toujours animé jusqu’à l‘aboutissement de mes projets.
            J’ai par ailleurs commencé en autodidacte l’apprentissage de langages informatiques pour acquérir les bases et suivi des formations à OpenClassRooms.
           </p>
-          {/* <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
-          </p> */}
         </div>
       </div>
     </section>
