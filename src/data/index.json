@@ -37,7 +37,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/ArgentBank.png",
+      "src": "./img/ArgentBank.webp",
       "title": "ArgentBank",
       "description": "site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
       "link": " Github",
@@ -48,7 +48,7 @@
     },
     {
       "id": "2",
-      "src": "./img/Ohmyfood.png",
+      "src": "./img/Ohmyfood.webp",
       "title": "Ohmyfood",
       "description": "Création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
       "link": "View In Github",
@@ -58,7 +58,7 @@
     },
     {
       "id": "3",
-      "src": "./img/Kasa.png",
+      "src": "./img/Kasa.webp",
       "title": "Kasa",
       "description": " Le site web de Kasa est une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
       "link": "View In Github",
@@ -69,7 +69,7 @@
     },
     {
       "id": "4",
-      "src": "./img/Booki.png",
+      "src": "./img/Booki.webp",
       "title": "Booki",
       "description": "Un site permettant aux usagers de trouver des hébergements et des activités dans leur ville de choix.Transformer les maquettes desktop,tablette et mobile en code HTML et CSS",
       "link": "View In Github",
@@ -80,7 +80,7 @@
     },
     {
       "id": "5",
-      "src": "./img/Nina.png",
+      "src": "./img/Nina.webp",
       "title": "Nina Carducci",
       "description": "Améliorer le référencement du site, en augmentant sa visibilité auprès des clients potentiels.La fourniture du code est optimisé avec un rapport de performance pour démontrer les résultats.",
       "link": "View In Github",
@@ -90,7 +90,7 @@
     },
     {
       "id": "6",
-      "src": "./img/724-Event.png",
+      "src": "./img/724-Event.webp",
       "title": "724-Event",
       "description": "Ce site web  sert de vitrine en ligne pour l'agence événementielle. Il doit présenter de manière attrayante les services et les événements proposés par l'agence.",
       "link": "View In Github",

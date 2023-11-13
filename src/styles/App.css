@@ -25,7 +25,7 @@ a {
   --primary: #5e3bee;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
-  --github: #e62872;
+  --github: #971147;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
@@ -90,7 +90,7 @@ a {
   background-color: white;
   padding-left: 300px;
   border: none;
-  color: #e62872;
+  color: #AA134F;
 }
 /* Global CSS Ends */
 /* LOADING CSS  */
@@ -339,6 +339,7 @@ h2 {
   font-weight: 400;
   line-height: 36px;
   padding-bottom: 30px;
+  text-align: justify;
 }
 .hero--section--img {
   display: flex;
@@ -545,6 +546,7 @@ h2 {
   font-weight: 400;
   line-height: 25px;
   border-bottom: none;
+  text-align: justify;
 }
 .portfolio--languages {
   display:flex;
@@ -554,7 +556,7 @@ h2 {
     font-size: 18px;
     font-weight:600;
     color:white;
-    background-color: #7CC3C9;
+    background-color: #296166;
     border: solid 1px #5D7173 ;
     width: 150px;
     border-radius: 15px;
@@ -766,6 +768,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 0px;
+    padding: 0;
   }
   .hero--section--title,
   .hero--section-description,
@@ -781,12 +784,14 @@ input[type="checkbox"] {
   .footer--content--container {
     display: flex;
     flex-direction: column;
+    
   }
   .skills--section,
   .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
+    padding: 0px;
   }
   .skills--section--title {
     font-size: 15px;
@@ -796,13 +801,13 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .portfolio--link {
-    gap: 145px;
+    gap: 200px;
     padding-bottom: 10.6px;
     font-weight: 500;
     
   }
   .btn-text {
-    padding-left: 180px;
+    padding-left: 240px;
   }
   .portfolio--section--card--content{
     padding: 0px;
@@ -815,14 +820,17 @@ input[type="checkbox"] {
   .footer--container {
     gap: 20px;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    padding: 10px 0px;
   }
+ 
   .about--section {
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
+    padding: 0px;
   }
   .hero--section--title,
   .skills--section--heading,
@@ -836,7 +844,9 @@ input[type="checkbox"] {
   
   .hero--section--content--box {
     gap: 10px;
-    padding: 0px 85px;
+    padding: 0px 0px;
+    text-align: justify;
+    
   }
   .contact--form--container {
     width: 100%;
@@ -955,7 +965,15 @@ input[type="checkbox"] {
     gap: 0px;
   }
   .canvas-container{
-    height: auto;
+    width: 100%;
+  }
+  .portfolio--section {
+
+    padding: 30px 10px;
+    
+   
+    gap: 80px;
+    
   }
 }
 

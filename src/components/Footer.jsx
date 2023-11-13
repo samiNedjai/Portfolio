@@ -67,6 +67,7 @@ function Footer() {
             <li>
               <a 
                 href="https://www.facebook.com/sami.nadj"
+                aria-label="facebook"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -88,6 +89,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.instagram.com/nadjsami/"
+                aria-label="instagram"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -111,6 +113,7 @@ function Footer() {
             <li>
               <a
                 href="https://twitter.com/NedjaiSami"
+                aria-label="twitter"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -132,6 +135,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.linkedin.com/in/sami-nedjai/"
+                aria-label="linkedin"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
