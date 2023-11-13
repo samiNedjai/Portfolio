@@ -590,6 +590,9 @@ h2 {
   column-gap: 32px;
   row-gap: 32px;
 }
+.contact-title {
+  font-size: 37px;
+}
 .contact--label {
   display: flex;
   flex-direction: column;
@@ -760,7 +763,7 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
   .btn-outline-primary {
     display: none;
   }
@@ -807,7 +810,7 @@ input[type="checkbox"] {
     
   }
   .btn-text {
-    padding-left: 240px;
+    padding-left: 265px;
   }
   .portfolio--section--card--content{
     padding: 0px;
@@ -818,10 +821,8 @@ input[type="checkbox"] {
   .skills--section,
   .contact--section,
   .footer--container {
-    gap: 20px;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    padding: 10px 0px;
+    gap: 0px;
+    padding: 10px 15px;
   }
  
   .about--section {
@@ -851,6 +852,9 @@ input[type="checkbox"] {
   .contact--form--container {
     width: 100%;
   }
+  .contact-title {
+    font-size: 32px;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -860,9 +864,15 @@ input[type="checkbox"] {
   .footer--items > ul {
     padding: 0;
     align-items: center;
+    gap: 30px;
   }
   .divider {
     margin: 20px;
+  }
+  .about--section--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .about--section--img >img {
      width: 50%;  
@@ -896,7 +906,13 @@ input[type="checkbox"] {
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
+  .about--section--img > img {
+    margin: 0;
+    width: 300px;
+    height: 100%;
+    border-radius: 50%;
+}
   .nav__hamburger {
     display: flex;
     z-index: 200;
