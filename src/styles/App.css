@@ -370,6 +370,7 @@ h2 {
 }
 .skills--section--container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 42px;
@@ -481,8 +482,10 @@ h2 {
   margin-bottom: 20px;
 }
 .portfolio--section--container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales par ligne */
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3, 1fr);  */
+  /* Trois colonnes égales par ligne */
   gap: 40px; /* Espace entre les images */
   width: 100%;
 }
