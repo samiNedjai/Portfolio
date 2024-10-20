@@ -76,18 +76,19 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
+          <Link
+  onClick={closeMenu}
+  activeClass="navbar--active-content"
+  spy={true}
+  smooth={true}
+  offset={-70} /* Ajuster cette valeur selon la hauteur de ta navbar */
+  duration={500}
+  to="MyPortfolio"
+  className="navbar--content"
+>
+  Portfolio
+</Link>
+
           </li>
           <li>
             <Link
@@ -105,18 +106,12 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contactez-Moi
-      </Link>
+      <a
+  href="mailto:sami.nedjai@outlook.fr"
+  className="btn btn-outline-primary"
+>
+  Contactez-moi
+</a>
     </nav>
   );
 }

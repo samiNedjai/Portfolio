@@ -2,9 +2,9 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/photo-sami2.webp" alt="About Me" />
+        <img src="./img/photo-sami2.jpg" alt="About Me" />
       </div>
-      <div className="hero--section--content--box  about--section--box">
+      <div className="hero--section--content--box1  about--section--box">
         <div className="hero--section--content">
           <h1 className="skills-section--heading">À propos de moi</h1>
           <p className="hero--section-description">

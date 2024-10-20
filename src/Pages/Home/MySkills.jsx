@@ -70,7 +70,7 @@ export default function MySkills() {
           </div>
         ))}
       </div>
-      <div className="canvas-container">
+      <div className="canvas-container"  style={{ display: 'none' }}>
         <canvas ref={chartRef} className="canvas-content" />
       </div>
     </section>

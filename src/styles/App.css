@@ -264,6 +264,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 .navbar--items > ul {
   list-style: none;
@@ -300,38 +301,84 @@ h2 {
 
 /* Hero Section Style */
 .hero--section {
+  background-image: url("../../public/img/programming-background.jpg");
+  background-size: cover; /* Pour couvrir toute la section */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Évite la répétition de l'image */
   display: flex;
   grid-template-columns: repeat(2, 1fr);
-  padding: 175px 85.333px 50px;
+  padding: 116px 85.333px 50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content:flex-end;
   gap: 32px;
   background-color: var(--bg-shade);
+  min-height: 60vh; /* Hauteur minimale de la section, égale à la hauteur de l'écran */
+  height: 60vh; /* S'assure que la section prend toute la hauteur de l'écran */
 }
-.hero--section--content-box {
+.hero--section--content--box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
+  width: 35%;
   gap: 32px;
 }
+.hero--section--content--box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  gap: 32px;
+}
+
 .hero--section--content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 10px;
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
 .hero--section--title {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+  /* padding-left: 75%; */
+}
+.hero--section--title1 {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+/* .hero--section--title {
   color: var(--heading-color);
-  font-size: 74.667px;
+  color: white;
+  font-size: 60px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
-}
-.hero--section--title--color {
-  color: var(--primary);
+  
+} */
+
+.hero--section-description1 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+  align-items: flex-end;
+  /* padding-left: 68%; */
 }
 .hero--section-description {
   color: var(--darkblue);
@@ -342,13 +389,12 @@ h2 {
   text-align: justify;
 }
 .hero--section--img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 .hero--section--img > img {
-  width: 50%;
-  height: 100%;
+  border-radius: 50%;
+  width: 150px;
+  
   
 }
 /* Hero Section Style Ends */
@@ -448,7 +494,7 @@ h2 {
 }
 .about--section--img > img {
   margin: 0;
-  width: 500px;
+  width: 340px;
   height: 100%;
   border-radius: 50%;
 }
@@ -461,6 +507,8 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  padding-top: 100px;
+
   
 }
 
@@ -516,6 +564,7 @@ h2 {
   transition: opacity 0.5s ease, transform 0.5s ease;
   cursor:auto;
 }
+
 .portfolio--section--card--content {
   display: flex;
   padding: 32px;
@@ -733,7 +782,7 @@ input[type="checkbox"] {
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 70px;
   }
   .skills--section--title {
